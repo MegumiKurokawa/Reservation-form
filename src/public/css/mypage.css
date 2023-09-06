@@ -1,0 +1,255 @@
+body {
+    background: rgb(233, 233, 233);
+}
+
+.mypage__grid-parent {
+    display: grid;
+    grid-template-rows: 100px auto 1fr;
+    grid-template-columns: 1fr 2fr;
+}
+
+.header__inner {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.header__left {
+    display: flex;
+    margin: 30px 0 0 30px;
+}
+
+.header__button {
+    background: rgb(82, 85, 255);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 3px 3px 2px darkgray;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header__logo {
+    color: rgb(82, 85, 255);
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.mypage-name {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background: rgb(233, 233, 233);
+}
+
+.mypage-name__title {
+    font-size: 26px;
+    margin-left: 100px;
+}
+
+.mypage-reservation {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background: rgb(233, 233, 233);
+}
+
+.information__header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.information__header-title {
+    width: 80%;
+    display: flex;
+}
+
+.reservation-information__inner {
+    width: 100%;
+    height: 100%;
+    margin: 10px auto;
+}
+
+.reservation-flex__item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 40px auto;
+    gap: 20px;
+    background: rgb(82, 85, 255);
+    border-radius: 5px;
+    width: 80%;
+}
+
+.reservation__card {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.table__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.table__information-title {
+    width: 80%;
+    display: flex;
+}
+
+.cancel-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.cancel-button__submit {
+    width: 25px;
+    height: 25px;
+    background: rgb(82, 85, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.reservation__form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.information__table {
+    width: 100%;
+    margin-left: 20px;
+}
+
+th {
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 30px;
+    color: white;
+}
+
+.restaurant-name__td {
+    color: white;
+}
+
+input, select {
+    width: 60%;
+    height: 40px;
+    border: none;
+    background: rgb(82, 85, 255);
+    color: white;
+    font-family: sans-serif;
+}
+
+.update-form__button {
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.update-form__button-submit {
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background: rgb(191, 191, 255);
+    color: black;
+    box-shadow: 1px 1px black;
+}
+
+.mypage-favorite {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background: rgb(233, 233, 233);
+}
+
+.mypage-favorite__inner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex__item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    margin: auto 60px;
+    gap: 20px;
+}
+
+.restaurant__card {
+    width: 40%;
+    height: auto;
+    box-shadow: 3px 3px 5px darkgray;
+    border-radius: 5px;
+}
+
+.restaurant__img img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.restaurant__content {
+    width: 100%;
+    padding: 10px 20px 0 20px;
+    background: white;
+    border-radius: 0 0 5px 5px;
+}
+
+.restaurant__name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.restaurant__tag {
+    display: flex;
+}
+
+.area__tag,
+.genre__tag {
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.content__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.index__detail-button {
+    display: inline-flex;
+    width: 90px;
+    height: 25px;
+    background: rgb(56, 59, 252);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 11px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 36px;
+    color: red;
+}

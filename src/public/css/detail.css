@@ -1,0 +1,202 @@
+body {
+    font-family: sans-serif;
+}
+
+.detail__grid-parent {
+    display: grid;
+    grid-template-rows: 100px 100%;
+    grid-template-columns: 2fr 2fr;
+}
+
+.header__inner {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background: rgb(233, 233, 233);
+}
+
+.header__left {
+    margin: 30px;
+    display: flex;
+}
+
+.header__button {
+    background: rgb(82, 85, 255);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 3px 3px 2px darkgray;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header__logo {
+    color: rgb(82, 85, 255);
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.restaurant-detail__content {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background: rgb(233, 233, 233);
+}
+
+.detail__content-inner {
+    margin-left: 30px;
+    width: 100%;
+}
+
+.detail__content-title {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.back__button {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 3px 3px 2px darkgray;
+    font-weight: bold;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.detail__title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.detail__content-img img {
+    width: 90%;
+    justify-self: center;
+}
+
+.detail__content-tag {
+    display: flex;
+    margin: 30px 0;
+    font-size: 15px;
+}
+
+.detail__area {
+    margin-right: 10px;
+}
+
+.detail__content-introduction {
+    width: 90%;
+}
+
+.restaurant__introduction {
+    color: black;
+}
+
+.restaurant-reservation__content {
+    grid-row: 1/3;
+    background: rgb(233, 233, 233);
+}
+
+.reservation__content-inner {
+    width: 90%;
+    height: 600px;
+    margin: 100px auto 0 auto;
+    background: rgb(82, 85, 255);
+    border: none;
+    border-radius: 5px;
+}
+
+.reservation__content-title {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.reservation__form {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form__inner {
+    width: 95%;
+    margin-left: 20px;
+}
+
+.reservation-date {
+    display: flex;
+    height: 30px;
+    width: 30%;
+    border: none;
+    border-radius: 3px;
+    padding-right: 15px;
+    font-family: sans-serif;
+}
+
+.reservation-time__select,
+.reservation-people__select {
+    display: block;
+    height: 30px;
+    width: 90%;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+.reservation__confirm {
+    width: 90%;
+    margin: 0 auto;
+    background: rgb(9, 148, 253);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding-left: 20px;
+}
+
+tr {
+    height: 50px;
+}
+
+th {
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+    padding-right: 50px;
+}
+
+.reservation__button-submit {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;  
+    cursor: pointer;
+    margin-top: 20px;
+    background: rgb(37, 40, 255);
+}
+
+.login__message {
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    background: rgb(82, 85, 255);
+    border-radius: 5px;
+}

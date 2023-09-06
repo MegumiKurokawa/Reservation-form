@@ -1,0 +1,77 @@
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 100%;
+    background: rgb(233, 233, 233);
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 40px;
+}
+
+.header__button {
+    background: rgb(82, 85, 255);
+    border: none;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    box-shadow: 3px 3px 2px darkgray;
+    cursor: pointer;
+}
+
+.header__logo {
+    color: rgb(82, 85, 255);
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.thanks {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    background: rgb(233, 233, 233);
+}
+
+.thanks__inner {
+    width: 30%;
+    margin: 0 auto;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.thanks__content {
+    width: 100%;
+    height: 300px;
+    box-shadow: 5px 5px 3px darkgray;
+    border: none;
+    border-radius: 3px;
+    background: white;
+    font-size: 22px;
+    padding-top: 70px;
+}
+
+.form__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.thanks__login-button {
+    width: 100px;
+    height: 30px;
+    background: rgb(56, 59, 252);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 11px;
+    text-decoration: none;
+    padding-top: 8px;
+}
