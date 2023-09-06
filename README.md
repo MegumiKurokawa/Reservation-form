@@ -20,11 +20,12 @@
 -PHP
 
 ## テーブル設計
-![table_1](https://github.com/MegumiKurokawa/megumisasaki_reservation_service/assets/127080181/50184d8b-84aa-496a-b18c-ee6baf68f6de)
-![table_2](https://github.com/MegumiKurokawa/megumisasaki_reservation_service/assets/127080181/c9564bd8-dd28-46b9-a36e-cc97adc63f6a)
+![table1](https://github.com/MegumiKurokawa/20230906_megumisasaki_reservation_service/assets/127080181/055f797b-840a-4728-8535-a56d4b0ea4a0)
+![table2](https://github.com/MegumiKurokawa/20230906_megumisasaki_reservation_service/assets/127080181/c3b4af4a-137f-4fd2-94d6-c8210e7a95e8)
 
 ## ER図
-![ER](https://github.com/MegumiKurokawa/megumisasaki_reservation_service/assets/127080181/1a5f63ce-eb21-42c5-8212-5f868986d003)
+![ER](https://github.com/MegumiKurokawa/20230906_megumisasaki_reservation_service/assets/127080181/b63d5a7a-538a-4a18-a3dd-f64abab42436)
+
 
 ## 環境構築
 リポジトリのクローン<br>
