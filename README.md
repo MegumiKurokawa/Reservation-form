@@ -1,7 +1,7 @@
 # Rese
 -レストラン検索、レストラン予約、お気に入り登録が可能なプリケーション
 
-![Top_page](https://github.com/MegumiKurokawa/megumisasaki_reservation_service/assets/127080181/bd3327af-50f1-4f4e-a1e1-9bf1f59efe27)
+![top](https://github.com/MegumiKurokawa/20230906_megumisasaki_reservation_service/assets/127080181/eb81fd22-a640-4605-aa3e-5c844ec97b87)
 
 ## 作成した目的
 外部の飲食店予約サービスは手数料を取られるので自社で予約サービスを持ちたい
