@@ -48,10 +48,10 @@ Laravelパッケージのインストール<br>
 .envファイルの作成<br><br>
 １．phpコンテナ内で cp .env.example .env コマンドを実行<br>
 ２．phpコンテナ内で php artisan key:generate コマンドを実行してAPP_KEYを発行<br>
-３．.envファイルのDBを変更（mysqlファイルのenviromentの部分に記載しています）<br>
-データベース設定<br><br>
+３．.envファイルのDBを変更（mysqlファイルのenviromentの部分に記載しています）<br><br>
+データベース設定<br>
 １．phpコンテナ内で php artisan migrate コマンドを実行<br>
-２．phpコンテナ内で php artisan db:seed コマンドを実行<br>
+２．phpコンテナ内で php artisan db:seed コマンドを実行<br><br>
 
 ## その他
 -テストログイン用ユーザー名：hoge<br>
